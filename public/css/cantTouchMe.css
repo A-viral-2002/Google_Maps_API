@@ -1,0 +1,14 @@
+body {
+    background-color: #1a6eec;
+}
+
+.Evil-Button-Style {
+    padding: 12px 25px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    background: #ec615b;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/Weather.css">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        
+        <script defer src = "js/Weather.js"> </script>
+
+    </head>
+    <body>
+        <div class = "container-fluid navbar-weather-style py-3">
+            <div class = "row">
+                <div class = "col-md-10 col-12 mx-auto">
+              
+<nav class = "navbar navbar-expand-lg">
+    <div class = "container-fluid">
+
+        <a class = "navbar-brand" href = "/" id = "logo"> <i class = "far fa-snowflake" aria-hidden = "true"> </i> AWP <i class = "far fa-snowflake" aria-hidden = "true"> </i> </a>
+
+        
+    </div>
+    
+</nav>
+      
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Header -->
+        <div class = "container-fluid main_header">
+            <div class = "row">
+                <div class = "col-md-10 col-12 mx-auto">
+
+                    <div class = "main_content">
+                        <form class = "temp_form">
+                            <input type = "text" id = "cityName" placeholder = "Enter Your City Name" autocomplete = "off">
+                            <input type = "submit" value = "search" id = "submitBtn">
+                        </form>
+                    </div>
+
+                    <div class = "tempInformation">
+                        <div class = "top_layer" style = "height: 100px;">
+                            <p id = "day"> <h1 style = "color: white; padding: 0; margin: auto;"> Today </h1> </p>
+                            <p id = "today_date"></p>
+                        </div>
+                        <div class = "main_layer">
+                            <p id = "city_name"> Get Output Here </p>
+                            <div class = "middle_layer data_hide" style = "width: 400px; height: 300px;">
+                                <p id = "temp" style = "margin-top: 40px; margin-bottom: 40px;"> <span> 0 </span> <sup> O </sup> C </p>
+                                <p id = "temp_status" style = "margin-top: 50px; margin-bottom: 40px;""> <i class = 'fa fa-cloud' aria-hidden = "true"> </i> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
